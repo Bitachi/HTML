@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.container {
+  width: 100%;
+}
+
+header li {
+  float:left;
+  list-style:none;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  height: 65px;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  position:fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #10316b;
+  opacity: 0.95;
+  color: white;
+}
+
+.header-left {
+  float: left;
+  font-size: 38px;
+  padding-bottom: 10px;
+}
+
+.header-left a {
+  font-size: 40px;
+  margin-left: 8px;
+  letter-spacing: 2px;
+  height: 65px;
+}
+
+
+.header-right {
+  float: right;
+  font-size: 20px;
+}
+
+.header-right a {
+  padding: 14px 24px;
+}
+
+.header-btn {
+  height: 65px;
+}
+
+.header-btn:hover {
+  transition: 0.5s;
+  opacity: 0.8;
+  background-color: #4790bb;
+}
+
+.toptop-wrapper {
+  text-align: center;
+  color: white;
+  margin-bottom: 80px;
+
+}
+
+.toptop-wrapper p {
+  height: 70px;
+}
+
+.toptop-wrapper h1 {
+  font-size: 80px;
+  letter-spacing: 2px;
+}
+
+.toptop-wrapper {
+  background-image: url(./img/makurazaki_04.JPG);
+  background-size: cover;
+  height: 750px;
+  background-attachment: fixed;
+}
+
+
+
+.top-wrapper {
+  margin-bottom: 80px;
+  text-align: center;
+  height: 500px;
+}
+
+.my-icon {
+  float: left;
+  width: 50%;
+}
+
+.my-icon img {
+  margin-top: 80px;
+  width: 50%;
+}
+
+#top-wrapper-space {
+  height: 100px;
+}
+
+.top-wrapper li {
+  list-style: none;
+}
+
+.top-wrapper h2 {
+  font-size:40px;
+}
+
+
+
+.top-wrapper-text-contents {
+  width: 50%;
+  float:right;
+  font-size: 30px;
+}
+
+.clear {
+  clear: left;
+}
+
+
+.hobby-wrapper {
+  text-align:center;
+  height: 500px;
+  background-color: #cccccc;
+  color: #28385e;
+}
+
+.hobby-wrapper h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.hobby {
+  width: 25%;
+  float:left;
+}
+.hobby-icon {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hobby-text {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.hobby-icon img {
+  width: 80%;
+}
+
+.skill-wrapper h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skill-wrapper {
+  height: 1000px;
+  background-color: #d7e6ef;
+  color: #454c50
+}
+
+.my-icon-in-skill {
+  width:35%;
+  float: left;
+  text-align: center;
+
+}
+.my-icon-in-skill img {
+  width:70%;
+}
+
+.star-rating {
+  position: relative;
+  width: 5em;
+  height: 1em;
+  font-size: 25px;
+  margin: 0 auto;
+}
+.star-rating-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  color: #ffcc33;
+
+}
+.star-rating-back {
+  color: #ccc;
+}
+
+.skill {
+  width: 25%;
+  float: left;
+  text-align: center;
+  height: 400px;
+}
+
+.skill-text {
+  width: 80%;
+  margin: 0 auto;
+  display:none;
+  padding-top: 10px;
+}
+
+.skill-icon img{
+  width: 80%;
+}
+
+.works-wrapper {
+  height: 500px;
+  text-align: center;
+}
+
+.works-wrapper h2 {
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.work {
+  width: 25%;
+  float: left;
+  text-align: center;
+  height: 600px;
+}
+
+.work-img img {
+  width: 80%;
+}
+
+.work-text {
+  width: 80%;
+  margin: 0 auto;
+  display:none;
+  padding-top: 10px;
+}
+
+#work-image-space {
+  height: 15px;
+}
+
+@media (max-width: 1000px){
+
+}
+
+@media (max-width: 670px){
+}
